@@ -1,0 +1,35 @@
+* {
+  background-color: black;
+  color:white
+}
+
+.game{
+  margin: 0 auto;
+  text-align: center;
+  max-width: calc(3*100px);
+  padding: 20px;
+}
+.status{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+ }
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  justify-content: center;
+}
+.btn{
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  border: 2px solid slategray;
+}
+.btn:hover {
+  background-color: grey;
+}
+.reset{
+  padding: 5px 10px;
+  border: 1px solid gray;
+}
